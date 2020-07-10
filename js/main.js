@@ -4,6 +4,7 @@ $(document).ready( function() {
 	var $logo 	= $('#logo');
 	var $itSkills 	= $('#itSkills');
 	var $projectManager 	= $('#projectManager');
+	var $helloClass 	= $('#helloClass');
 	var $contactMe 	= $('#contactMe');
     var $hellologo = $('#helloworld');
 
@@ -19,6 +20,11 @@ $(document).ready( function() {
 
     if (location.href.indexOf("projects") > 1) {
         $projectManager.show();
+
+    }
+
+    if (location.href.indexOf("class") > 1) {
+        $helloClass.show();
 
     }
 
